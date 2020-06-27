@@ -9,4 +9,3 @@ export class RedDirective {
     el.nativeElement.style.color = '#E35E6B';
   }
 }
-appRed
