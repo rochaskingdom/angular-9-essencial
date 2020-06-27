@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-product-create',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCreateComponent implements OnInit {
 
-  constructor() { }
+  propLegal = 'qualquer';
+
+  constructor() {
+  }
 
   ngOnInit(): void {
+  }
+
+  fazerAlgo(): void {
+    console.log('Fazendo algo!');
   }
 
 }
